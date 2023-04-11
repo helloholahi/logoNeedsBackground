@@ -1,2 +1,3 @@
 # logoNeedsBackground()
-Simple PHP function to detect if a logo image needs a background color or not to be visible, so you can avoid to display a white or very bright logo on a white background, where it would be otherwise invisible.
+
+Simply use `logoNeedsBackground('path/to/image.png')` in your PHP code, it will return `true` if the image is too bright/white to be displayed over a white background, or `false` otherwise. Then you do your thing... :)
